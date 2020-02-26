@@ -18,3 +18,23 @@ Jika proses telah selesai, untuk memastikan OpenCV sudah terinstall jalankan. Te
 ```shell
 python -c "import cv2"
 ```
+# Program Python Sederhana
+Sekarang kita ujicoba OpenCV dengan menggunakan bahasa pemrograman Python. Sekarang kamu siapkan satu buah berkas gambar dan buat berkas berekstensi *.py*, sekarang kita buat berkas bernama ujicoba.py.
+
+```python
+import cv2
+
+imgLoad = cv2.imread("gambar1.jpg")		# Membaca berkas gambar1.jpg lalu simpan ke variabel imgLoad
+cv2.imshow("Citra", imgLoad)			# Menampilkan gambar yang telah dibaca
+
+cv2.waitKey(0)							# Menghentikan menampilkan gambar hingga pengguna menekan tombol
+cv2.destroyAllWindows()
+```
+Pastikan sebelum menjalankan program, berkas dengan nama *gambar1.jpg* sudah disiapkan dan diletakan di direktori yang sama dengan berkas pythonnya.
+
+Untuk menjalankan program, buka terminal kamu (pastikan di direktori yang sama dengan ujicoba.py) lalu jalankan perintah berikut.
+```shell
+python ujicoba.py
+```
+Hasilnya akan seperti gambar di bawah ini.
+![](/src/hasil_ujicoba.png)
