@@ -38,8 +38,4 @@ Untuk menjalankan program, di terminal kamu (pastikan di direktori yang sama den
 python ujicoba.py
 ```
 Hasilnya akan seperti gambar di bawah ini.
-<<<<<<< HEAD
 ![](/src/instalasi_opencv/hasil_ujicoba.png)
-=======
-![](/src/hasil_ujicoba.png)
->>>>>>> 049212abab61ba4a3960c1dd98004e56958094f6
