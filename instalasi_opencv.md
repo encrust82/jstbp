@@ -37,4 +37,4 @@ Untuk menjalankan program, buka terminal kamu (pastikan di direktori yang sama d
 python ujicoba.py
 ```
 Hasilnya akan seperti gambar di bawah ini.
-![](/src/hasil_ujicoba.png)
+![](/src/instalasi_opencv/hasil_ujicoba.png)
